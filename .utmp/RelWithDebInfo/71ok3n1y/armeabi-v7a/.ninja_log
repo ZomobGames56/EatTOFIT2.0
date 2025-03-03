@@ -1,0 +1,10 @@
+# ninja log v5
+11	614	7618258195196504	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2e843445ba18fd46
+0	639	7618258195462762	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2924f683459e412f
+25	659	7618258195661048	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	74e23bc62730369b
+18	670	7618258195773890	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	6df6201c81da8fec
+4	737	7618258196442051	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7a46e0d98dc650d1
+22	738	7618258196442051	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1b2482ea86112217
+15	870	7618258197784004	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	d13313e46badf169
+8	944	7618258198517662	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	907af2da7197cae4
+945	1028	7618258199417346	E:/EatToFit_2.O/EatToFit2.0/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/71ok3n1y/obj/armeabi-v7a/libgame.so	9d786345efcbd338

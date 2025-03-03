@@ -1,0 +1,5 @@
+E:/EatToFit_2.O/EatToFit2.0/.utmp/RelWithDebInfo/71ok3n1y/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/EatToFit_2.O/EatToFit2.0/.utmp/RelWithDebInfo/71ok3n1y/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+E:/EatToFit_2.O/EatToFit2.0/.utmp/RelWithDebInfo/71ok3n1y/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+E:/EatToFit_2.O/EatToFit2.0/.utmp/RelWithDebInfo/71ok3n1y/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+E:/EatToFit_2.O/EatToFit2.0/.utmp/RelWithDebInfo/71ok3n1y/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
