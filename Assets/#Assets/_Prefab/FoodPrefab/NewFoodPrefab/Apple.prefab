@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1089682810528192061
+--- !u!1 &6023258316557579752
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1186873559415808006}
-  - component: {fileID: 3677020686238256822}
-  - component: {fileID: 5668664070940009075}
-  - component: {fileID: 4854832039879928295}
-  - component: {fileID: 4186495059041362841}
+  - component: {fileID: 4603209726604776418}
+  - component: {fileID: 6978468503908532839}
+  - component: {fileID: 5476237446548448239}
+  - component: {fileID: 6866649266221873108}
+  - component: {fileID: 5878899448623870752}
+  - component: {fileID: 2257357929623391354}
   m_Layer: 0
-  m_Name: apple (1)
+  m_Name: Apple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1186873559415808006
+--- !u!4 &4603209726604776418
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089682810528192061}
+  m_GameObject: {fileID: 6023258316557579752}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
-  m_ConstrainProportionsScale: 1
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.27, y: -0.15, z: -49.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2778951970402827701}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!33 &3677020686238256822
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6978468503908532839
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089682810528192061}
-  m_Mesh: {fileID: 6892750972563599812, guid: 554bd12c1b8083a4886af8e61c3a2d9a, type: 3}
---- !u!23 &5668664070940009075
+  m_GameObject: {fileID: 6023258316557579752}
+  m_Mesh: {fileID: 7004783832934855251, guid: 3d169ccca22f8e94794765ed5a0cc593, type: 3}
+--- !u!23 &5476237446548448239
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089682810528192061}
+  m_GameObject: {fileID: 6023258316557579752}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20f5bafbd2aac7548aac699424b3915d, type: 2}
+  - {fileID: -4961867849631202612, guid: 3d169ccca22f8e94794765ed5a0cc593, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,13 +89,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4854832039879928295
+--- !u!114 &6866649266221873108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023258316557579752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274089711832b514fb0c59db02eb926f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveUpDistance: 2.5
+  moveUpDuration: 0.2
+  moveToPlayerDuration: 0.1
+  playerTransform: {fileID: 0}
+--- !u!64 &5878899448623870752
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089682810528192061}
+  m_GameObject: {fileID: 6023258316557579752}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -109,14 +126,14 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 6892750972563599812, guid: 554bd12c1b8083a4886af8e61c3a2d9a, type: 3}
---- !u!54 &4186495059041362841
+  m_Mesh: {fileID: 7004783832934855251, guid: 3d169ccca22f8e94794765ed5a0cc593, type: 3}
+--- !u!54 &2257357929623391354
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089682810528192061}
+  m_GameObject: {fileID: 6023258316557579752}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -133,55 +150,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &5143734993437623277
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2778951970402827701}
-  - component: {fileID: 2680278963246283556}
-  m_Layer: 0
-  m_Name: Apple
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2778951970402827701
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5143734993437623277}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1186873559415808006}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2680278963246283556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5143734993437623277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb281fdc63c48354a98a0aed482cc863, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  XrotSpeed: 0
-  YrotSpeed: 50
-  ZrotSpeed: 0

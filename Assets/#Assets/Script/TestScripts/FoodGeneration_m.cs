@@ -17,7 +17,7 @@ public class FoodGeneration_m : MonoBehaviour
     {
         lastSpawedObj = player_Ref;
         GameObject obj = Instantiate(spawnObj[0]);
-        obj.transform.position = new Vector3(3.5f, 1, lastSpawedObj.position.z + 25);
+        obj.transform.position = new Vector3(3.5f, 1, lastSpawedObj.position.z + 10f);
         lastSpawedObj = obj.transform;
         isGenerateFood = true;
     }
